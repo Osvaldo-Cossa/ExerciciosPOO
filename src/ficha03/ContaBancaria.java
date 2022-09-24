@@ -1,8 +1,8 @@
 package ficha03;
 
 public abstract class ContaBancaria {
-	double numeroConta;
-	double saldo;
+	private double numeroConta;
+	private double saldo;
 	
 	public abstract double sacar(double saque);
 	public abstract double depositar(double deposito);
